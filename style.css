@@ -31,7 +31,12 @@ nav {
 }
 
 .navbar-collapse ul li {
-    margin-left: 60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.navbar-collapse ul li:nth-child(6){
+    margin-right: 20px!important;
 }
 
 .brandarea svg {
@@ -80,7 +85,7 @@ header {
     width: 156px;
     height: 41px;
     font-weight: 400!important;
-    margin-right: 20px;
+    margin-right: 0px;
     text-align: center;
     padding: 10px 0px!important;
     letter-spacing: 0px;
