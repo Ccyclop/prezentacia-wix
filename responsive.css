@@ -53,5 +53,33 @@
         object-fit: cover;
     }
 
+    .normimage {
+        left: 90px;
+        top: 300px;
+        z-index: 8;
+    }
+    .borderimg {
+        right: 90px;
+        top: 250px;
 
+    }
+
+    .bannerimageareacontent {
+        top: -200px;
+        right: 0px;
+        left: 0px;
+        margin: auto;
+    }
+
+    .bannerimagearea {
+        height: 1709px;
+    }
+
+    .dancingimages {
+        bottom: -400px;
+        right: 0px;
+        left: 0px;
+        margin: auto;
+        justify-content: space-between;
+    }
 }
