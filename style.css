@@ -82,7 +82,7 @@ header {
     color: #10846f!important;
 }
 
-.color-different {
+.nav-item .color-different {
     color: #e8e6e6!important;
 }
 
@@ -284,12 +284,12 @@ header {
 .allphotos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1725px;
+    justify-content: space-around;
+    width: 1760px;
     margin: 0px auto 80px;
 }
 
-.photoarea div {
+.allphotos div {
     margin-top: 80px;
     display: flex;
     align-items: flex-end;
@@ -303,10 +303,9 @@ header {
     
 }
 
-.fa-heart:hover {
+.ph:hover i{
     visibility: visible;
 }
-
 
 
 .photo {
@@ -387,6 +386,10 @@ header {
     z-index: -1;
     top: 0px;
     left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
