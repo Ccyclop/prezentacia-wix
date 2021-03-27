@@ -82,4 +82,20 @@
         margin: auto;
         justify-content: space-between;
     }
+
+    .posters {
+        flex-direction: column;
+        width: 780px;
+        justify-content: space-between;
+        min-height: 900px;
+    }
+
+    .post {
+        margin-top: 100px;
+    }
+
+    .downer {
+        width: 780px;
+    }
+
 }
