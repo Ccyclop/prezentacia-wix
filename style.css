@@ -171,7 +171,7 @@ header {
     animation-name: bottomtotopsecond;
     animation-duration: 0.8s;
     animation-timing-function: linear;
-    
+    animation-delay: 1s;
 }
 
 @keyframes bottomtotopsecond {
@@ -199,7 +199,7 @@ header {
     animation-name: rigthtoleft;
     animation-duration: 0.8s;
     animation-timing-function: linear;
-    
+    animation-delay: 1s;
 }
 
 @keyframes rigthtoleft {
@@ -272,7 +272,7 @@ header {
     top: 240px;
     z-index: 1;
     animation: righttoleftsvg linear 0.8s;
-    
+    animation-delay: 1s;
     
 }
 
@@ -891,4 +891,14 @@ footer {
 
 .sidebar ul li:hover a {
     color: #fff!important;
+}
+
+body {
+    opacity: 1;
+    transition-duration: 1.7s;
+    transition-property: opacity;
+}
+
+body.fade {
+    opacity: 0;
 }
